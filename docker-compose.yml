@@ -1,0 +1,10 @@
+
+services:
+  botservice:
+    image: roronovazoro/bot
+    container_name: bot_container
+    restart: always
+    network_mode: host
+    ports:
+      - 6000:6000
+    
